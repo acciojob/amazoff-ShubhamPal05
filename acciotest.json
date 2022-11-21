@@ -1,4 +1,5 @@
 {
     "testRepo": "watchlist-solution",
-    "pathToFile": "src/test/java/com/driver/test/TestCases.java"
+    //"pathToFile": "src/test/java/com/driver/test/TestCases.java"
+    "testRepo": "amazoff-solution"
 }

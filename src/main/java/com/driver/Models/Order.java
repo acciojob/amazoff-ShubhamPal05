@@ -1,4 +1,6 @@
-package com.driver;
+package com.driver.Models;
+
+import com.driver.Converters.TimeConverter;
 
 public class Order {
 
@@ -6,9 +8,8 @@ public class Order {
     private int deliveryTime;
 
     public Order(String id, String deliveryTime) {
-
-        // The deliveryTime has to converted from string to int and then stored in the attribute
-        //deliveryTime  = HH*60 + MM
+        this.id =id;
+        this.deliveryTime = TimeConverter.StringToInt(deliveryTime);
     }
 
     public String getId() {
